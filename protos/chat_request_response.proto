@@ -1,0 +1,25 @@
+syntax="proto3";
+
+package chatmanagement;
+
+message sendtext{
+    string senders_id = 1;
+    string receivers_id= 2;
+    string message_update=3;
+    string status=4;
+}
+
+message receiveacknowledgment{
+    string message_status = 1;
+    string message = 2;
+}
+
+message checkonlinestatus{
+    string senders_id = 1;
+    string receivers_id = 2;
+}
+
+
+message receivestatus{
+    string lastseen = 1;
+}

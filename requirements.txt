@@ -1,0 +1,6 @@
+google-api-python-client
+grpcio-reflection
+grpcio-tools
+grpcio
+protobuf
+pytest

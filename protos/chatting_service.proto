@@ -1,0 +1,13 @@
+
+syntax="proto3";
+
+package chatmanagement;
+
+
+import "chat_request_response.proto";
+
+service chatmanage{
+    rpc ping(sendtext) returns (stream receiveacknowledgment){}
+    rpc lastseen(checkonlinestatus) returns (receivestatus){}
+}
+
