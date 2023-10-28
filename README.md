@@ -15,7 +15,7 @@ Installation Steps:
 
 2. Activate Virtual Environment - source venv/bin/activate
 
-3. Installing Requirements - pip -r ./requirements.txt
+3. Installing Requirements - pip3 install -r ./requirements.txt 
 
 4. Run Proto Files -
 
