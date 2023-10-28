@@ -21,7 +21,7 @@ Installation Steps:
 
         1. python3 -m grpc_tools.protoc -I protos --python_out=. --grpc_python_out=. protos/chatting_service.proto 
 
-        2.python3 -m grpc_tools.protoc -I protos --python_out=. --grpc_python_out=. protos/chat_request_response.proto
+        2. python3 -m grpc_tools.protoc -I protos --python_out=. --grpc_python_out=. protos/chat_request_response.proto
 
 5. Run Server - python3 -m server
 
