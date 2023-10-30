@@ -2,6 +2,8 @@
 # ChatWave-GRPC-Python
 This repository contains the backend source code for Chat Service.  Key Features:   1. Users can message each other 2. Users will be able to see the last seen/Online status of Receiver.            GRPC Protocol - This Chat Service is developed using GRPC Protocol, and server uses asynchronous mechanism to talk with clients, Tech stack : Python
 
+Code Explanation: https://medium.com/@rohithkumar593/chat-communication-using-grpc-python-ab78361c3acb
+
 Design Used For Chat Service ( Only 1 Receiver is shown, Can be extended to multiple receivers)
 
 
@@ -28,4 +30,5 @@ Installation Steps:
 6. Open Seperate Terminal and run client1 - python3 -m clients.client1
 
 7. Add one more terminal and run client2 - python3 -m clients.client2
+   
 
